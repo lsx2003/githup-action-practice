@@ -29,5 +29,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_EC2_METADATA_DISABLED: true
         run: |
-          aws s3 sync . build s3:fe-67-lsx2003-s3 --delete
+          aws s3 sync . build s3://fe-67-lsx2003-s3 --delete
         working-directory: ./my-agora-states-client/
