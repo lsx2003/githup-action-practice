@@ -1,8 +1,8 @@
 export const Discussion = ({ discussion, deleteDiscussion }) => {
-  const {url,  id, author, avatarUrl, title, answer, createdAt } = discussion;
+  const {url,  id, author,  title, avatarUrl, answer, createdAt } = discussion;
 
   return (
-    <li className="discussion__container">
+    <li className="discussion__container"> 
       <div className="discussion__avatar--wrapper">
         <img
           className="discussion__avatar--image"
