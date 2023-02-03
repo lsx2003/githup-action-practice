@@ -1,5 +1,5 @@
 export const Discussion = ({ discussion, deleteDiscussion }) => {
-  const { id, url, author, avatarUrl, title, answer, createdAt } = discussion;
+  const {url,  idl, author, avatarUrl, title, answer, createdAt } = discussion;
 
   return (
     <li className="discussion__container">
