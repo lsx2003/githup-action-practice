@@ -5,7 +5,7 @@ function App() {
   const domain = "http://localhost:3001";
   const [discussions, setDiscussions] = useState([]);
 
-  useEffect(() => {
+  useEffect(() => {   
     getDiscussion();
   }, []);
 
